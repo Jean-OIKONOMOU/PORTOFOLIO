@@ -1,5 +1,6 @@
 # Mon PORTOFOLIO
-Crée dans le but de me faire un portofolio. Pour le moment il n'y a pas d'informations pertinentes.
+Crée dans le but de me faire un portofolio.
+Pour le moment il n'y a pas d'informations pertinentes dedans, juste des placeholders pour là où je vais mettre mes projets (faites pas attention au design très **"ANIME"** ce n'est en **aucun cas** le design final).
 
 # Technologies utilisées
 Ce site est fait avec du Jquery, CSS, HTML, et des tas de plugins ! Voici une liste des plugins utilisés:
