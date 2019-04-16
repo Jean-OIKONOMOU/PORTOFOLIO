@@ -9,7 +9,7 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "Scope": "/",
-  "start_url": "/?homescreen=1",
+  "start_url": "/",
   "icons": [
     {
       "src": "assets/img/icons/icon-72x72.png",
