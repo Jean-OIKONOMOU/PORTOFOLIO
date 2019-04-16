@@ -2,24 +2,43 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <link rel="stylesheet" href="css/superslides.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- register service worker -->
+          <script>
+            if ('serviceWorker' in navigator)
+            {
+            window.addEventListener('load', function() {
+              navigator.serviceWorker.register('/service-worker.js')
+              .then(function() { console.log("Service Worker Registered, Cheers to PWA Fire!"); });
+            }
+            );
+          }
+          </script>
+   <!-- end of service worker -->
+
+   <!-- start of web manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <!-- end of web manifest -->
+  <link rel="stylesheet" type="text/css" href="assets/css/superslides.css" media="all">
+  <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" media="all">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/master.css" media="all">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="utf-8">
   <title>JohnnyBeGood</title>
-  <!-- <link rel="shortcut icon" href="img/logo.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-  <link rel="manifest" href="img/site.webmanifest">
-  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="assets/img/logo.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/site.webmanifest">
+  <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Portofolio">
+  <meta name="application-name" content="Portofolio">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="img/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff"> -->
+  <meta name="msapplication-config" content="assets/img/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
@@ -33,11 +52,11 @@
   <div id="slides">
     <div class="overlay"></div>
     <div class="slides-container">
-      <img src="img/2.jpg" alt="Cowboy Bebop Wallpaper">
-      <img src="img/6.jpg" alt="Cowboy Bebop Wallpaper">
-      <img src="img/3.jpg" alt="Cowboy Bebop Wallpaper">
-      <img src="img/7.jpg" alt="Cowboy Bebop Wallpaper">
-      <img src="img/1.jpg" alt="Cowboy Bebop Wallpaper">
+      <img src="assets/img/2.jpg" alt="Cowboy Bebop Wallpaper">
+      <img src="assets/img/6.jpg" alt="Cowboy Bebop Wallpaper">
+      <img src="assets/img/3.jpg" alt="Cowboy Bebop Wallpaper">
+      <img src="assets/img/7.jpg" alt="Cowboy Bebop Wallpaper">
+      <img src="assets/img/1.jpg" alt="Cowboy Bebop Wallpaper">
     </div>
     <div class="titleMessage">
       <div class="heading">
@@ -84,7 +103,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-5">
-          <img class="aboutImage" src="img/adam.jpg" alt="Une image de moi-même.">
+          <img class="aboutImage" src="assets/img/adam.jpg" alt="Une image de moi-même.">
         </div>
         <div class="col-md-6 col-lg-7">
           <h4>My name is Jean-Adrian OIKONOMOU. I never asked for this.</h4>
@@ -235,7 +254,7 @@
     </div>
 
     <div id="portofolio" class="portofolioSection section">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
 
           <div class="heading">
@@ -245,10 +264,10 @@
 
           <div class="filter">
             <ul id="filters">
-              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 mr-4 px-0 py-2"><a data-filter="*" class="current" href="#">All</a></li>
-              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 mr-4 px-0 py-2"><a data-filter=".apps" href="#">Apps</a></li>
-              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 mr-4 px-0 py-2"><a data-filter=".me" href="#">Me</a></li>
-              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 mr-4 px-0 py-2"><a data-filter=".websites" href="#">Websites</a></li>
+              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter="*" class="current" href="#">All</a></li>
+              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter=".apps" href="#">Apps</a></li>
+              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter=".me" href="#">Me</a></li>
+              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter=".websites" href="#">Websites</a></li>
             </ul>
           </div>
 
@@ -257,9 +276,9 @@
 
                 <li onclick="" class="apps col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 text-center">
                   <div class="item">
-                    <img src="img/thumbnail/tb1.png" alt="Caesar Thumbnail">
+                    <img src="assets/img/thumbnail/tb1.png" alt="Caesar Thumbnail">
                     <div class="icons">
-                      <a href="img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
+                      <a href="assets/img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
                     <div class="imageOverlay">
@@ -268,9 +287,9 @@
                 </li>
                 <li onclick="" class="websites col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 text-center">
                   <div class="item">
-                    <img src="img/thumbnail/tb1.png" alt="Caesar Thumbnail">
+                    <img src="assets/img/thumbnail/tb1.png" alt="Caesar Thumbnail">
                     <div class="icons">
-                      <a href="img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
+                      <a href="assets/img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
                     <div class="imageOverlay">
@@ -280,9 +299,9 @@
 
                 <li onclick="" class="websites col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 text-center">
                   <div class="item">
-                    <img src="img/thumbnail/tb1.png" alt="Caesar Thumbnail">
+                    <img src="assets/img/thumbnail/tb1.png" alt="Caesar Thumbnail">
                     <div class="icons">
-                      <a href="img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
+                      <a href="assets/img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
                     <div class="imageOverlay">
@@ -292,9 +311,9 @@
 
                 <li onclick="" class="me col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 text-center">
                   <div class="item">
-                    <img src="img/thumbnail/tb1.png" alt="Caesar Thumbnail">
+                    <img src="assets/img/thumbnail/tb1.png" alt="Caesar Thumbnail">
                     <div class="icons">
-                      <a href="img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
+                      <a href="assets/img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
                     <div class="imageOverlay">
@@ -304,9 +323,9 @@
 
                 <li onclick="" class="me col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 text-center">
                   <div class="item">
-                    <img src="img/thumbnail/tb1.png" alt="Caesar Thumbnail">
+                    <img src="assets/img/thumbnail/tb1.png" alt="Caesar Thumbnail">
                     <div class="icons">
-                      <a href="img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY">
+                      <a href="assets/img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY">
                         <i class="fa fa-search"></i></a>
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
@@ -317,9 +336,9 @@
 
                 <li onclick="" class="apps col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 text-center">
                   <div class="item">
-                    <img src="img/thumbnail/tb1.png" alt="Caesar Thumbnail">
+                    <img src="assets/img/thumbnail/tb1.png" alt="Caesar Thumbnail">
                     <div class="icons">
-                      <a href="img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
+                      <a href="assets/assets/img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
                     <div class="imageOverlay">
@@ -330,9 +349,9 @@
 
                 <li onclick="" class="websites col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 text-center">
                   <div class="item">
-                    <img src="img/thumbnail/tb1.png" alt="Caesar Thumbnail">
+                    <img src="assets/img/thumbnail/tb1.png" alt="Caesar Thumbnail">
                     <div class="icons">
-                      <a href="img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
+                      <a href="assets/img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
                     <div class="imageOverlay">
@@ -343,9 +362,9 @@
 
                 <li onclick="" class="me col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 text-center">
                   <div class="item">
-                    <img src="img/thumbnail/tb1.png" alt="Caesar Thumbnail">
+                    <img src="assets/img/thumbnail/tb1.png" alt="Caesar Thumbnail">
                     <div class="icons">
-                      <a href="img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
+                      <a href="assets/img/aa.jpg" title="View image" class="openButton" data-fancybox data-caption="SOFT KITTY"><i class="fa fa-search"></i></a>
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
                     <div class="imageOverlay">
@@ -367,17 +386,17 @@
       </div>
     </div>
 
-    <script src="js/countUp.js"></script>
-    <script src="js/countUp-jquery.js"></script>
-    <script src="js/jquery.superslides.min.js"></script>
-    <script src="js/jquery.easypiechart.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/typed.min.js"></script>
+    <script src="assets/js/countUp.js"></script>
+    <script src="assets/js/countUp-jquery.js"></script>
+    <script src="assets/js/jquery.superslides.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 

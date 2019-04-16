@@ -428,7 +428,14 @@ body {
 
 .filter li {
   display: inline-block;
-  padding: 0px;
+  padding: 5px;
+}
+
+.filter ul {
+  margin: 0;
+padding: 0;
+list-style-type: none;
+-webkit-padding-start: 0;
 }
 
 .filter .current {
@@ -586,6 +593,13 @@ body {
   padding: 0;
 }
 
+.items ul {
+  margin: 0;
+padding: 0;
+list-style-type: none;
+-webkit-padding-start: 0;
+}
+
 .copyrightSection {
   background-color: rgba(148, 115, 17, 1);
   color: black;
@@ -598,7 +612,7 @@ body {
 #navigation {
   background-color: rgba(44, 62, 80, 0.98);
   padding: 20px 10px;
-  z-index:999;
+  z-index: 999;
   width: 100%;
 }
 
