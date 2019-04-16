@@ -34,6 +34,7 @@
                 '/?homescreen=1', //default
                 '/assets/img/*', // choose images to keep offline; just an example
                 '/assets/img/thumbnail/*', // configure as by your site ; just an example
+                '/assets/img/icons/*',
                 '/assets/css/*',
                 '/assets/js/*',
         // Do not replace/delete/edit the manifest.js paths below
