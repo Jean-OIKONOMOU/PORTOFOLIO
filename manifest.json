@@ -1,5 +1,5 @@
 {
-	"display": "fullscreen",
+	"display": "standalone",
 	"orientation": "portrait",
 	"short_name": "Portofolio",
 	"name": "Portofolio",
