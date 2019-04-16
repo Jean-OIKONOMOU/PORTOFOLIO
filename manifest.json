@@ -7,7 +7,6 @@
 	"lang": "en-US",
 	"theme_color": "#2196f3",
 	"background_color": "#2196f3",
-	"Scope": "/",
 	"icons": [{
 			"src": "assets/img/icons/icon-72x72.png",
 			"sizes": "72x72",
