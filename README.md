@@ -9,7 +9,7 @@ Crée dans le but de me faire un portofolio.
 Pour le moment il n'y a pas d'informations pertinentes dedans, juste des placeholders pour là où je vais mettre mes projets (faites pas attention au design très **"ANIME"** ce n'est en **aucun cas** le design final).
 
 # Ce qu'il reste à faire
-Remplir le site avec mes **données**, le transformer en **PWA**. Ajouter une **Favicon**.
+Remplir le site avec mes **données**, le transformer en **PWA**. ~Ajouter une **Favicon**~.
 
 # Technologies utilisées
 Ce site est fait avec du Jquery, CSS, HTML, et des tas de plugins ! Voici une liste des plugins utilisés:
