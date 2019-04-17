@@ -2,7 +2,7 @@
 http://tiny.cc/cnzb5y
 
 # QR code to my site
-![My QR](tinyqr.png =250x250)
+<img src="tinyqr.png" width="150" height="150" alt="my QR"/>
 
 # Mon PORTOFOLIO
 Crée dans le but de me faire un portofolio.
