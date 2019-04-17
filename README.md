@@ -1,8 +1,4 @@
-# TinyURL link
-http://tiny.cc/cnzb5y
 
-# QR code to my site
-<img src="tinyqr.png" width="150" height="150" alt="my QR"/>
 
 # Mon PORTOFOLIO
 Crée dans le but de me faire un portofolio.
@@ -20,5 +16,11 @@ Ce site est fait avec du Jquery, CSS, HTML, et des tas de plugins ! Voici une li
 - [countUp.js](https://github.com/inorganik/CountUp.js)
 - [fancybox.js](http://fancyapps.com/fancybox/3/)
 - [isotop.js](https://isotope.metafizzy.co/)
+
+# TinyURL link
+http://tiny.cc/cnzb5y
+
+# QR code to my site
+<img src="tinyqr.png" width="150" height="150" alt="my QR"/>
 
 ## &copy; [Jean-Adrian OIKONOMOU](https://github.com/Jean-OIKONOMOU)
