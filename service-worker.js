@@ -38,7 +38,7 @@
                 '/assets/css/*',
                 '/assets/js/*',
         // Do not replace/delete/edit the manifest.js paths below
-        //These are links to the extenal social media buttons that should be cached;
+        // These are links to the extenal social media buttons that should be cached;
         // we have used twitter's as an example
               'https://platform.twitter.com/widgets.js',
                 ]);
