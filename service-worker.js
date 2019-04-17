@@ -32,11 +32,11 @@
                 '/index.html', //default
                 '/index.html?homescreen=1', //default
                 '/?homescreen=1', //default
-                '/assets/img/*', // choose images to keep offline; just an example
-                '/assets/img/thumbnail/*', // configure as by your site ; just an example
-                '/assets/img/icons/*',
-                '/assets/css/*',
-                '/assets/js/*',
+                // '/assets/img/*', // choose images to keep offline; just an example
+                // '/assets/img/thumbnail/*', // configure as by your site ; just an example
+                // '/assets/img/icons/*',
+                // '/assets/css/*',
+                // '/assets/js/*',
         // Do not replace/delete/edit the manifest.js paths below
         // These are links to the extenal social media buttons that should be cached;
         // we have used twitter's as an example
