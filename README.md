@@ -2,7 +2,7 @@
 http://tiny.cc/cnzb5y
 
 # QR code to my site
-![alt text](https://jean-oikonomou.github.io/PORTOFOLIO/tinyqr.png "My QR")
+![alt text](tinyqr.png "My QR")
 
 # Mon PORTOFOLIO
 Crée dans le but de me faire un portofolio.
