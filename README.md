@@ -1,3 +1,9 @@
+# TinyURL link
+http://tiny.cc/cnzb5y
+
+# QR code to my site
+![alt text](https://jean-oikonomou.github.io/PORTOFOLIO/tinyqr.png "My QR")
+
 # Mon PORTOFOLIO
 Crée dans le but de me faire un portofolio.
 Pour le moment il n'y a pas d'informations pertinentes dedans, juste des placeholders pour là où je vais mettre mes projets (faites pas attention au design très **"ANIME"** ce n'est en **aucun cas** le design final).
