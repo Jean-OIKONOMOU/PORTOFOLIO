@@ -712,7 +712,7 @@ ul.social-network li {
 }
 
 .social-network a.icoGithub:hover {
-	background-color: #F56505;
+	background-color: #9b00aa;
 }
 
 .social-network a.icoFacebook:hover {
@@ -724,7 +724,7 @@ ul.social-network li {
 }
 
 .social-network a.icoFacebook:hover i, .social-network a.icoGithub:hover i, .social-network a.icoLinkedin:hover i {
-	color:#fff;
+	color:#ffffff;
 }
 
 a.socialIcon:hover, .socialHoverClass {
@@ -749,6 +749,7 @@ a.socialIcon:hover, .socialHoverClass {
 	margin:0;
 	line-height:50px;
 	text-align: center;
+  color: rgba(255, 230, 0, 1);
 }
 
 .social-circle li a:hover i {
@@ -761,13 +762,4 @@ a.socialIcon:hover, .socialHoverClass {
 	-o-transition: all 0.4s;
 	-ms-transition: all 0.4s;
 	transition: all 0.4s;
-}
-
-.social-circle i {
-	color: rgba(255, 230, 0, 1);
-	-webkit-transition: all 0.8s;
-	-moz-transition: all 0.8s;
-	-o-transition: all 0.8s;
-	-ms-transition: all 0.8s;
-	transition: all 0.8s;
 }
