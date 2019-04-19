@@ -763,3 +763,13 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.4s;
 	transition: all 0.4s;
 }
+
+.my-fa-facebook:before {
+  content: "\f39e";
+}
+.my-fa-github:before {
+  content: "\f09b";
+}
+.my-fa-linkedin:before {
+  content: "\f08c";
+}
