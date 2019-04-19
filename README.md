@@ -16,11 +16,12 @@ Ce site est fait avec du Jquery, CSS, HTML, et des tas de plugins ! Voici une li
 - [countUp.js](https://github.com/inorganik/CountUp.js)
 - [fancybox.js](http://fancyapps.com/fancybox/3/)
 - [isotop.js](https://isotope.metafizzy.co/)
+- [firebase](https://console.firebase.google.com/u/0/project/portofolio-6a120/overview) mais seulement la partie "Hosting", du coup il y a aussi une URL `firebase` pour mon site mais elle est moins bien que la Github page.
 
-# TinyURL link
+# lien TinyURL
 http://tiny.cc/cnzb5y
 
-# QR code to my site
+# QR code du site
 <img src="tinyqr.png" width="150" height="150" alt="my QR"/>
 
 ## &copy; [Jean-Adrian OIKONOMOU](https://github.com/Jean-OIKONOMOU)
