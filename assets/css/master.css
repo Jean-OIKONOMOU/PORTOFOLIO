@@ -764,12 +764,12 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.4s;
 }
 
-.my-fa-facebook:before {
+.my-fa-fc:before {
   content: "\f39e";
 }
-.my-fa-github:before {
+.my-fa-gt:before {
   content: "\f09b";
 }
-.my-fa-linkedin:before {
+.my-fa-lk:before {
   content: "\f08c";
 }
