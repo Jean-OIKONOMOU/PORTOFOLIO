@@ -25,6 +25,46 @@ body {
   margin: 0.7rem;
 }
 
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #ffbf00;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
 .overlay {
   width: 100%;
   height: 100%;
@@ -129,10 +169,18 @@ body {
 /* ABOUT SECTION CSS */
 .aboutImage {
   max-width: 100%;
+  border: 1px transparent white;
+  border-radius: 25px;
+}
+
+.center {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .row .col-md-6 h4 {
-  margin: 0.5em 0;
+  margin: 0 0.5em 0.5em 0.5em;
   letter-spacing: 1px;
 }
 

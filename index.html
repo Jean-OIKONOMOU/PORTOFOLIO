@@ -2,22 +2,10 @@
 <html lang="en" dir="ltr">
 
 <head>
-    <!-- register service worker -->
-          <!-- <script>
-            if ('serviceWorker' in navigator)
-            {
-            window.addEventListener('load', function() {
-              navigator.serviceWorker.register('./service-worker.js')
-              .then(function() { console.log("Service Worker Registered, Cheers to PWA Fire!"); });
-            }
-            );
-          }
-          </script> -->
-   <!-- end of service worker -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="utf-8">
-  <title>JohnnyBeGood</title>
+  <title>Portofolio</title>
   <link rel="manifest" href="manifest.json">
 
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -55,10 +43,9 @@
   <div id="slides">
     <div class="overlay"></div>
     <div class="slides-container">
-      <img src="assets/img/2.jpg" alt="Cowboy Bebop Wallpaper">
-      <img src="assets/img/6.jpg" alt="Cowboy Bebop Wallpaper">
-      <img src="assets/img/3.jpg" alt="Cowboy Bebop Wallpaper">
-      <img src="assets/img/7.jpg" alt="Cowboy Bebop Wallpaper">
+      <img src="assets/img/pair.jpg" alt="Pair programming">
+      <img src="assets/img/pairpair.png" alt="Pair programming">
+      <img src="assets/img/jsprog.jpg" alt="Javascript programming">
       <img src="assets/img/1.jpg" alt="Cowboy Bebop Wallpaper">
     </div>
     <div class="titleMessage">
@@ -77,23 +64,25 @@
   </div>
 
   <nav id="navigation" class="navbar navbar-expand-lg py-1">
-    <a class="navbar-brand mx-4" href="#">Navigation</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"><i class="fas fa-project-diagram mt-2"></i></span>
+    <a class="navbar-brand mx-4" href="#">Haut de la page</a>
+    <button class="navbar-toggler collapsed mb-1" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="icon-bar top-bar"></span>
+      <span class="icon-bar middle-bar"></span>
+      <span class="icon-bar bottom-bar"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item px-3">
-          <a class="nav-link" href="#about">About Me<i class="far fa-address-card ml-2"></i></a>
+          <a class="nav-link" href="#about">À propos<i class="far fa-address-card ml-2"></i></a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#skills">Skills<i class="fas fa-bolt ml-2"></i></a>
+          <a class="nav-link" href="#skills">Compétences<i class="fas fa-bolt ml-2"></i></a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#stats">Statistics<i class="fas fa-percentage ml-2"></i></a>
+          <a class="nav-link" href="#stats">Statistiques<i class="fas fa-percentage ml-2"></i></a>
         </li>
         <li class="nav-item px-3">
-          <a class="nav-link" href="#contact">Contact Me<i class="fas fa-phone-square ml-2"></i></a>
+          <a class="nav-link" href="#contact">Contact<i class="fas fa-phone-square ml-2"></i></a>
         </li>
         <li class="nav-item px-3">
           <a class="nav-link" href="#portofolio">Portofolio<i class="far fa-images ml-2"></i></a>
@@ -105,15 +94,15 @@
   <div id="about" class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-lg-5">
-          <img class="aboutImage" src="assets/img/adam.jpg" alt="Une image de moi-même.">
+        <div class="col-md-6 col-lg-5 pb-4">
+          <img class="center" width="350" height="500" class="aboutImage" src="assets/img/ax.jpg" alt="Une image de moi-même.">
         </div>
-        <div class="col-md-6 col-lg-7">
-          <h4>My name is Jean-Adrian OIKONOMOU. I never asked for this.</h4>
-          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <div class="col-md-6 col-lg-7 ">
+          <h4>Je m'appelle Jean-Adrian OIKONOMOU. Enthousiaste et motivé.</h4>
+          <p>Pour me présenter en quelques mots... je suis une personne extrêmement motivé et passionnée par la technologie. Je ne demande qu'une chose: coder.
+            Peu importe les conditions de travail ou les technologies utilisées - je m'adapte. Pour le moment je suis élève à BeCode, un moyen incroyable pour
+             moi de pouvoir apprendre plus gratuitement, de pouvoir m'exprimer et de commencer une carrière en lien avec mes passions.
+            De plus, je termine une formation de technicien en informatique en même temps que BeCode, donc en juillet.</p>
         </div>
       </div>
     </div>
@@ -124,54 +113,63 @@
       <div class="row">
 
         <div class="col-md-12 text-center">
-          <h2 class="mb-3">TECHNICAL SKILLS</h2>
-          <p class="mb-5">Pie charts representing my skill in each of these coding languages:</p>
+          <h2 class="mb-3">COMPÉTENCES TECHNIQUES</h2>
+          <p class="mb-5">Voici quelques graphiques en camembert pour décrire mes compétences:</p>
         </div>
 
         <div class="owl-carousel owl-theme">
-          <div class="skill">
-            <span class="chart mb-3" data-percent="50">
-              <span class="percent">50%</span>
+          <div class="skill ml-3">
+            <span class="chart mb-3" data-percent="100">
+              <span class="percent">1000%</span>
               <canvas width="152" height="152"></canvas>
             </span>
             <h4>HTML</h4>
-            <p>Tree-like formating language, the building blocks of any website.</p>
+            <p>Langage de balisage pour le développement web.</p>
           </div>
 
-          <div class="skill">
-            <span class="chart mb-3" data-percent="50">
-              <span class="percent">50%</span>
+          <div class="skill ml-3">
+            <span class="chart mb-3" data-percent="75">
+              <span class="percent">75%</span>
               <canvas width="152" height="152"></canvas>
             </span>
-            <h4>HTML</h4>
-            <p>Tree-like formating language, the building blocks of any website.</p>
+            <h4>CSS</h4>
+            <p>Langage pour ajouter des effets de style.</p>
           </div>
 
-          <div class="skill">
-            <span class="chart mb-3" data-percent="50">
-              <span class="percent">50%</span>
+          <div class="skill ml-3">
+            <span class="chart mb-3" data-percent="65">
+              <span class="percent">65%</span>
               <canvas width="152" height="152"></canvas>
             </span>
-            <h4>HTML</h4>
-            <p>Tree-like formating language, the building blocks of any website.</p>
+            <h4>JavaScript</h4>
+            <p>Langage de programmation employé dans les pages web.</p>
           </div>
 
-          <div class="skill">
-            <span class="chart mb-3" data-percent="50">
-              <span class="percent">50%</span>
+          <div class="skill ml-3">
+            <span class="chart mb-3" data-percent="85">
+              <span class="percent">85%</span>
               <canvas width="152" height="152"></canvas>
             </span>
-            <h4>HTML</h4>
-            <p>Tree-like formating language, the building blocks of any website.</p>
+            <h4>Bootstrap 4</h4>
+            <p>Framework crée par Twitter qui simplifie la création de pages web.</p>
           </div>
 
-          <div class="skill">
+          <div class="skill ml-3">
+            <span class="chart mb-3" data-percent="40">
+              <span class="percent">40%</span>
+              <canvas width="152" height="152"></canvas>
+            </span>
+            <h4>PHP</h4>
+            <p>Langage de programmation pour produire des pages web dynamiques.</p>
+          </div>
+
+          <div class="skill ml-3">
             <span class="chart mb-3" data-percent="50">
               <span class="percent">50%</span>
               <canvas width="152" height="152"></canvas>
             </span>
-            <h4>HTML</h4>
-            <p>Tree-like formating language, the building blocks of any website.</p>
+            <h4>VUE.js</h4>
+            <p>Framework javascript utilisé pour créer des pages web plus robustes.</p>
           </div>
 
         </div>
@@ -183,8 +181,8 @@
       <div class="container">
         <div class="row">
             <div class="heading">
-              <h2 class="mb-3 stat">STATISTICS</h2>
-              <p class="mb-5 ml-3 text-center">Some statistics about myself:</p>
+              <h2 class="mb-3 stat">STATISTIQUES</h2>
+              <p class="mb-5 ml-3 text-center">Quelques statistiques à propos de moi:</p>
             </div>
 
           <div class="col-md-3 col-sm-6">
@@ -195,7 +193,7 @@
                 </div>
                 <div class="squareContent">
                   <h2 class="counter">6</h2>
-                  <h3>Months of experience</h3>
+                  <h3>Mois d'expérience</h3>
                 </div>
               </div>
             </div>
@@ -222,8 +220,8 @@
                   <i class="fas fa-child"></i>
                 </div>
                 <div class="squareContent">
-                  <h2 class="counter">0</h2>
-                  <h3>Clients... As of yet!</h3>
+                  <h2 class="counter">4</h2>
+                  <h3>Clients</h3>
                 </div>
               </div>
             </div>
@@ -250,8 +248,8 @@
 
     <div id="contact" class="contactSection section">
       <div class="col-md-12 text-center">
-        <p class="subHeading">Like what you see?</p>
-        <h2>I'd love to hear from you!</h2>
+        <p class="subHeading">Vous voulez en savoir plus?</p>
+        <h2>Alors n'hésitez pas à me contacter!</h2>
         <a href="mailTo:jean.oikonomou@gmail.com" class="contactButton">Get in touch.</a>
         <div class="pt-5">
         <ul class="social-network social-circle">
@@ -261,7 +259,6 @@
         </ul>
       </div>
       </div>
-
     </div>
 
     <div id="portofolio" class="portofolioSection section">
@@ -275,10 +272,10 @@
 
           <div class="filter">
             <ul id="filters">
-              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter="*" class="current" href="#">All</a></li>
-              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter=".apps" href="#">Apps</a></li>
-              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter=".me" href="#">Me</a></li>
-              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter=".websites" href="#">Websites</a></li>
+              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter="*" class="current" href="#">Tout</a></li>
+              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter=".apps" href="#">Applications</a></li>
+              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter=".me" href="#">Moi</a></li>
+              <li class="col-5 col-sm-5 col-md-5 col-lg-2 col-xl-2 px-0 py-4"><a data-filter=".websites" href="#">Sites Web</a></li>
             </ul>
           </div>
 
@@ -296,6 +293,7 @@
                     </div>
                   </div>
                 </li>
+
                 <li onclick="" class="websites col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 text-center">
                   <div class="item">
                     <img src="assets/img/thumbnail/tb1.png" alt="Caesar Thumbnail">
@@ -353,7 +351,6 @@
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
                     <div class="imageOverlay">
-
                     </div>
                   </div>
                 </li>
@@ -366,7 +363,6 @@
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
                     <div class="imageOverlay">
-
                     </div>
                   </div>
                 </li>
@@ -379,7 +375,6 @@
                       <a href="#" target="_blank" class="projectLink"><i class="fa fa-link"></i></a>
                     </div>
                     <div class="imageOverlay">
-
                     </div>
                   </div>
                 </li>
