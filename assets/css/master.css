@@ -681,6 +681,7 @@ body {
 .copyrightSection {
   background-color: #EF6461;
   color: #313638;
+  font-weight: bold;
 }
 
 .copyrightSection p {
