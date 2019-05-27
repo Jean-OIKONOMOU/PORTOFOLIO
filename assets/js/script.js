@@ -43,13 +43,13 @@ function load() {
           items: 4,
           responsive:{
               0:{
-                  items:1.5
+                  items:2
               },
               480:{
-                  items:2.5
+                  items:2
               },
               768:{
-                  items:3.5
+                  items:3
               },
               938:{
                   items:4
@@ -109,7 +109,7 @@ function load() {
       const nav = $("#navigation");
       const navTop = nav.offset().top;
 
-      $("#navigation li a").click(function(e) {
+      $("#navigation a").click(function(e) {
         e.preventDefault();
 
         var targetElement = $(this).attr("href");
