@@ -473,6 +473,8 @@ body {
     padding: 20px 30px;
     color: rgba(30, 22, 54, 1);
     box-shadow: rgba(30, 22, 54, 1) 0 0px 0px 2px inset;
+    background-color: rgb(211, 209, 189);
+    font-weight: bold;
 }
 
 .contactButton:hover {
@@ -500,6 +502,8 @@ body {
     padding: 20px 30px;
     color: rgba(30, 22, 54, 0.75);
     box-shadow: rgba(30, 22, 54, 0.8) 0 0px 0px 2px inset;
+    background-color: rgb(211, 209, 189);
+    font-weight: bold;
 }
 
 .filter li {
