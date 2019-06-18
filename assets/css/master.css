@@ -460,6 +460,16 @@ body {
   animation: spark 1.8s infinite;
 }
 
+.am-next {
+  color: blue;
+  background-color: red;
+}
+
+.am-prev {
+  color: blue;
+  background-color: red;
+}
+
 .contactButton {
   -webkit-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
   -moz-transition: all 200ms cubic-bezier(0.39, 0.5, 0.15, 1.36);
@@ -860,4 +870,20 @@ a.socialIcon:hover,
 }
 .my-fa-lk:before {
   content: "\f08c";
+}
+
+.owl-nav .owl-prev span{
+  position: absolute;
+  top: 30%;
+  left: -1%;
+  color: black;
+  font-size: 80px;
+}
+
+.owl-nav .owl-next span{
+  position: absolute;
+  top: 30%;
+  right: -1%;
+  color: black;
+  font-size: 80px;
 }
