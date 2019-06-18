@@ -63,7 +63,6 @@ function load() {
       }
     },
     nav: true,
-  
     smartSpeed: 900,
     dots: false
   });
