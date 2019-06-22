@@ -620,6 +620,7 @@ body {
   display: inline-block;
   font-weight: bold;
   text-decoration: none !important;
+  border-bottom: 1px solid black;
 }
 
 .items p .gitlink:hover {
@@ -912,7 +913,7 @@ a.socialIcon:hover,
   font-size: 80px;
 }
 
-.flip-card {
+/* .flip-card {
   background-color: transparent;
   width: 336px;
   height: 336px;
@@ -989,4 +990,4 @@ a.socialIcon:hover,
   font-weight: bold;
   color: black;
   padding: 0 1em;
-}
+} */
