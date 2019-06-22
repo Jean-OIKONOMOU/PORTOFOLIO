@@ -590,6 +590,7 @@ body {
   margin: -20px auto 0 -47px;
   text-align: center;
   z-index: 3;
+  opacity: 0;
 }
 
 .items .icons i {
@@ -673,12 +674,21 @@ body {
 
 .items .openButton {
   float: left;
-  left: -200px;
+  left: -8vw;
 }
 
 .items .projectLink {
   float: right;
-  right: -200px;
+  right: -8vw;
+}
+
+.items .item:hover .icons {
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  -ms-transition: opacity .3s ease-in-out;
+  -webkit-transition: opacity .3s ease-in-out;
 }
 
 .items .item:hover .openButton {
